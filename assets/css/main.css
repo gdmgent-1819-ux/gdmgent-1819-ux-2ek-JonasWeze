@@ -7,3 +7,191 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+#header{
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6vw;
+    color: rgb(7, 149, 31);
+    text-align: center;
+    margin-top: 2%;
+    background-color: white;
+    margin-bottom: 0%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1%;
+}
+#nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5vw;
+    font-style: bold;
+    color:white;
+    text-align: center;
+    background-color: rgb(7, 149, 31);
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 0%;
+    padding-top: 0%;
+    }    
+#nav td{
+    border: 1px solid black;
+    width: 13.333333%
+    
+}
+#nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    font-style: bold;
+    color:white;
+    text-decoration: none;
+}
+.bodyBrowser{
+    background-image: url(../../images/achtergrond.jpg);
+}
+#meisjes{
+    max-width: 30vw;
+    padding: 2%;
+    }
+#main{
+    background-color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+}
+#main p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: 1vw;
+}
+#main h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: 4vw;
+    color: rgb(7, 149, 31);
+}
+#tombola{
+    max-width: 40vw;
+    padding-bottom: 20%;
+}
+#briefje{
+    max-width: 40vw;
+    padding-bottom: 10%;
+}
+#sponsor{
+    width:25vw;
+    padding-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%
+}
+#footer{
+    background-color: rgb(7, 149, 31);
+    color: white;
+    font-size: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 0%;
+    margin-right: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.browser{
+    display: none;
+}
+.GSM {
+    display: block;
+}
+
+
+@media (min-width: 575.99999px) {
+    .GSM {
+        display: none;
+    }
+    .browser{
+        display: block;
+    }
+}
+.hamburger_icon {
+    width: 39px;
+    height: 5px;
+    background-color: white;
+    margin: 5px 0px;
+    border-radius: 2px;
+}
+
+.headerphone{
+   padding: 2%;
+   background-color: rgb(7, 149, 31);
+}
+.headerphone h1{
+    margin-top: -6%;
+    padding: 0;
+    margin-left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    font-display: bold;
+    color: white;
+}
+.hamburger{
+    margin-right: 2%;
+    margin-left: 90%;
+    margin-top:2%;
+}
+.bodyphone{
+    background-color: white;
+}
+#meisjesGSM{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.bodyphone p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    font-display: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.bodyphone h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    color: rgb(7, 149, 31);
+    font-display: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#briefjeGSM{
+    width: 50%;
+    margin-left: 25%;
+}
+#tombolaGSM{
+    width: 50%;
+    margin-left: 25%;
+}
+#sponsorGSM{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+#footerphone{
+    background-color: rgb(7, 149, 31);
+    color: white;
+    font-size: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    text-align: center;
+    margin-top: 0%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
